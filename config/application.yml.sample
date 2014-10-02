@@ -1,0 +1,7 @@
+DEFAULT_ADMIN: "admin@email.com"
+DEFAULT_USERNAME: "user"
+DEFAULT_PASSWORD: "pass"
+
+development:
+  DATABASE_PASSWORD: "pass"
+  DATABASE_USER: "user"
