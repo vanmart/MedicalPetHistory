@@ -4,9 +4,9 @@ RailsAdmin.config do |config|
   # Set the main administration panel tittle
   config.main_app_name = Proc.new { |controller| [ "MedicalPet", "History" ] }
 
-  #class RailsAdmin::Config::Fields::Types::Inet < RailsAdmin::Config::Fields::Base
-  #  RailsAdmin::Config::Fields::Types::register(self)
-  #end
+  class RailsAdmin::Config::Fields::Types::Inet < RailsAdmin::Config::Fields::Base
+    RailsAdmin::Config::Fields::Types::register(self)
+  end
 
   ### Popular gems integration
 
